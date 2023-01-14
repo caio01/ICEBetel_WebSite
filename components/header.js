@@ -1,12 +1,5 @@
-const template = document.createElement('template')
-template.innerHTML = 
+document.getElementById('header-nav').innerHTML = 
 `
-<link rel="stylesheet" href="/components/header.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-
 <div class="overlay"></div>
 <div class="header-blue">
     <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
@@ -50,13 +43,3 @@ template.innerHTML =
     </nav>
 </div>
 `
-
-class HeaderPersonalizada extends HTMLElement {
-    constructor() {
-        super()
-        this.attachShadow({mode: "open"})
-        this.shadowRoot.appendChild(template.content)
-    }
-}
-
-window.customElements.define('header-template', HeaderPersonalizada)
