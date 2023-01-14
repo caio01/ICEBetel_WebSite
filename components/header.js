@@ -1,19 +1,29 @@
 document.getElementById('header-nav').innerHTML = 
 `
+<!-- div responsavel pela opacidade nas imagens e no video dos headers -->
 <div class="overlay"></div>
+
+<!-- inicio do header -->
 <div class="header-blue">
     <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
         <div class="container">
+            <!-- logo Betel -->
             <a href="/index.html"><img class="logo-nav" src="/public/assets/img/logo.png"></a>
+            
+            <!-- botão 3 barras, disponivel quando menor proporcao -->
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+            <!-- div com a lista das opcoes do menu -->
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav">
+
                     <li class="nav-item" role="presentation">
                         <a class="nav-link" href="/pages/contribua/contribua.html">Contribua</a>
                     </li>
+                    
                     <li class="nav-item" role="presentation">
                         <a class="nav-link" href="/pages/programacao/programacao.html">Programação</a>
                     </li>
@@ -32,9 +42,13 @@ document.getElementById('header-nav').innerHTML =
                     <li class="nav-item" role="presentation">
                         <a class="nav-link" href="/pages/comochegar/comochegar.html">Como chegar</a>
                     </li>
+
                 </ul>
+
+                <!-- form que garante que a opcao de login e sign up fiquem alinhados a direita -->
                 <form class="mr-auto"></form>
-                <!--
+                
+                <!-- login e sign up - serao implementados posteriormente
                 <span class="navbar-text"><a href="#" class="login">Log In</a></span>
                 <a class="btn btn-light action-button" role="button" href="#">Sign Up</a>
                 -->
