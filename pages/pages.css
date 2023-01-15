@@ -1,9 +1,11 @@
+/* importa e aplica o estilo da fonte */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
 
 * {
     font-family: 'Quicksand', sans-serif;
 }
 
+/* estiliza a img no background do header */
 .img-back {
     position: absolute;
     top: 50%;
@@ -18,6 +20,7 @@
     transform: translateX(-50%) translateY(-50%);
 }
 
+/* estiliza o header */
 header {
     position: relative;
     background-color: black;
@@ -26,6 +29,7 @@ header {
     overflow: hidden;
 }
 
+/* ref à scrollbar personalizada */
 body::-webkit-scrollbar {
     width: 5px;
     height: 5px;

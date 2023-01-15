@@ -1,14 +1,17 @@
+/* estiliza a logo do header */
 .logo-nav {
     width: 5rem;
     margin-top: .2rem;
     margin-right: 1rem;
 }
 
+/* container que envolve todo o header */
 .container {
     position: relative;
     z-index: 2;
 }
-  
+
+/* diminui a opacidade do video ou img do header */
 .overlay {
     position: absolute;
     top: 0;

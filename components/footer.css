@@ -1,0 +1,4 @@
+/* tira o espaco abaixo dos icones no footer */
+.mb-4, .my-4 {
+    margin-bottom: 0 !important;
+}

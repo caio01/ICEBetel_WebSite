@@ -57,3 +57,23 @@ document.getElementById('header-nav').innerHTML =
     </nav>
 </div>
 `
+
+var linkCSS = document.createElement("link")
+linkCSS.rel = "stylesheet"
+linkCSS.href = "/components/header.css"
+document.head.appendChild(linkCSS)
+
+var linkCSS2 = document.createElement("link")
+linkCSS2.rel = "stylesheet"
+linkCSS2.href = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+document.head.appendChild(linkCSS2)
+
+var linkScript = document.createElement("script")
+linkScript.setAttribute("src", "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+linkScript.setAttribute("type", "text/javascript")
+document.head.appendChild(linkScript)
+
+var linkScript2 = document.createElement("script")
+linkScript2.setAttribute("src", "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js")
+linkScript2.setAttribute("type", "text/javascript")
+document.head.appendChild(linkScript2)

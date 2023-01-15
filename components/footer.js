@@ -33,3 +33,13 @@ document.getElementById('footer').innerHTML =
   </div>
 </footer>
 `
+
+var linkCSS = document.createElement("link")
+linkCSS.rel = "stylesheet"
+linkCSS.href = "/components/footer.css"
+document.head.appendChild(linkCSS)
+
+var script = document.createElement("script")
+script.setAttribute("src", "https://kit.fontawesome.com/eb2ab83883.js")
+script.setAttribute("type", "text/javascript")
+document.head.appendChild(script)

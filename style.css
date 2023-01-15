@@ -1,9 +1,11 @@
+/* importa e aplica o estilo da fonte */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
 
 * {
     font-family: 'Quicksand', sans-serif;
 }
 
+/* ref à scrollbar personalizada */
 body::-webkit-scrollbar {
     width: 5px;
     height: 5px;
@@ -27,6 +29,7 @@ body::-webkit-scrollbar-corner {
     border-radius: 2px;
 }
 
+/* estiliza o header */
 header {
     position: relative;
     height: 100vh;
@@ -35,6 +38,7 @@ header {
     overflow: hidden;
 }
 
+/* video de background no header */
 .videoBackground {
     position: absolute;
     top: 50%;
@@ -50,10 +54,12 @@ header {
     transform: translateX(-50%) translateY(-50%);
 }
 
+/* txt de seja bem vindo */
 .display-3 {
     font-size: 2.5rem !important;
 }
 
+/* container que envolve toda a pag */
 .container {
     position: relative;
     z-index: 2;
