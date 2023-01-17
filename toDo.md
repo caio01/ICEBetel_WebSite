@@ -13,6 +13,6 @@
 	- [ ] iniciar desenv do corpo da homepage
 
 
-Ideias para desenvolver:
+- Ideias para desenvolver:
 	- historia da igreja - pegar como base : https://ibc.org.br/igreja
 	- plano de leitura biblica - mostrar semanalmente
