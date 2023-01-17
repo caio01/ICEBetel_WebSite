@@ -1,12 +1,13 @@
 - Caio:
-	- criar e compartilhar projeto no git	ok
-	- limpar e ajustar o código				ok
-	- ajustar dropdown 'sobre nos'			ok
-	- ajustar button 'responsivo'			ok
-	- fazer imagens das paginas no canva	ok
-	- desenvolver footer (bootstrap)		ok
-	- comentar codigo já desenvolvido		ok
-	- desenv template -> 'como chegar'
+	- [x] criar e compartilhar projeto no git
+	- [x] limpar e ajustar o código
+	- [x] ajustar dropdown 'sobre nos'
+	- [x] ajustar button 'responsivo'
+	- [x] fazer imagens das paginas no canva
+	- [x] desenvolver footer (bootstrap)
+	- [x] comentar codigo já desenvolvido
+	- [ ] desenv layout -> 'como chegar'
 
 - Jonas:
-	- pesquisar ideias para o desenvolvimento das páginas
+	- [x] pesquisar ideias para o desenvolvimento das páginas
+	- [ ] iniciar desenv do corpo da homepage
