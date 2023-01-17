@@ -19,7 +19,7 @@ document.getElementById('footer').innerHTML =
 
       <!-- icone Instagram -->
       <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" 
-        href="#!" role="button">
+        href="https://www.instagram.com/ice_betel" role="button">
         <i class="fab fa-instagram"></i>
       </a>
 
@@ -28,7 +28,7 @@ document.getElementById('footer').innerHTML =
 
   <!-- copyrigth -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 
+    © 2023
     <a class="text-white">Igreja Cristã Evangélica Betel</a>
   </div>
 </footer>
