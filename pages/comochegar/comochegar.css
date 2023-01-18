@@ -1,0 +1,35 @@
+.div-body {
+    display: flex;
+    height: 30rem;
+}
+
+.div-map {
+    width: 70%;
+}
+
+.map {
+    margin: 2.5% 5%;
+    width: 90%;
+    height: 90%;
+    border: 0;
+    border-radius: 1.5rem;
+}
+
+.div-txt {
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+
+.txt1 {
+    margin-top: 15rem;
+    font-size: 1.5rem;
+}
+
+.txt2 {
+    font-size: 1rem;
+}
+
+.txt3 {
+    font-size: .8rem;
+}
