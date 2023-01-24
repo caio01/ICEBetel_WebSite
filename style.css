@@ -28,6 +28,36 @@ body::-webkit-scrollbar-corner {
     background: #FF0000;
     border-radius: 2px;
 }
+/*estiliza o vídeo e o texto*/
+.row{
+    
+    height: 30rem;
+    display:flex;
+    
+}
+
+.caixa-texto {
+    width:50%;
+    background-color:rgb(255, 255, 255);   
+}
+     
+.caixa-video {
+    width: 50%;
+    background-color:rgb(255, 255, 255);
+}
+
+.video-body{
+    margin:70px 15px 5px 30px;
+    width: 90%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.textov{
+    margin:100px 50px 50px 50px;
+
+}
+
 
 /* estiliza o header */
 header {
@@ -64,3 +94,7 @@ header {
     position: relative;
     z-index: 2;
 }
+
+
+
+  
