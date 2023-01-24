@@ -1,0 +1,29 @@
+.div-body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    margin: 0 auto;
+}
+
+.map-responsive iframe{
+    height:100%;
+    width:100%;
+    position:absolute;
+    padding-bottom: 10%;
+}
+
+.div-txt {
+    padding-top: 5%;
+    padding-left: 2%;
+    width: 100%;
+}
+
+.venha {
+    margin-bottom: 5%;
+}
