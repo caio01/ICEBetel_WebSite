@@ -28,34 +28,15 @@ body::-webkit-scrollbar-corner {
     background: #FF0000;
     border-radius: 2px;
 }
-/*estiliza o vídeo e o texto*/
-.row{
-    
-    height: 30rem;
-    display:flex;
-    
-}
 
 .caixa-texto {
-    width:50%;
-    background-color:rgb(255, 255, 255);   
-}
-     
-.caixa-video {
-    width: 50%;
-    background-color:rgb(255, 255, 255);
+    margin-top: 2%;
+    width:100%;
+    text-align: center;
 }
 
-.video-body{
-    margin:70px 15px 5px 30px;
-    width: 90%;
-    height: 70%;
+.embed-responsive-item {
     border-radius: 10px;
-}
-
-.textov{
-    margin:100px 50px 50px 50px;
-
 }
 
 
