@@ -7,6 +7,7 @@
 	- [x] desenvolver footer (bootstrap)
 	- [x] comentar codigo já desenvolvido
 	- [ ] desenv layout -> 'como chegar'
+	- [ ] desenv layout -> 'contribua'
 
 - Jonas:
 	- [x] pesquisar ideias para o desenvolvimento das páginas

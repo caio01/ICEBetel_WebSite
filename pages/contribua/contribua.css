@@ -1,0 +1,25 @@
+.title {
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+
+.qr_code {
+    margin-left: 39.5%;
+}
+
+.txt-qr_code {
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 5%;
+}
+
+.txt {
+    font-size: 1rem;
+    font-weight: 300;
+}
