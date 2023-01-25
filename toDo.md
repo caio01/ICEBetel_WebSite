@@ -9,7 +9,7 @@
 	- [x] desenv layout -> 'como chegar'
 	- [x] desenv layout -> 'contribua'
 	- [x] desenv layout -> 'no que cremos'
-	- [ ] desenv layout -> 'programacao'
+	- [x] desenv layout -> 'programacao'
 
 
 - Jonas:
