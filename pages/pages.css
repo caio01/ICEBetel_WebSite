@@ -3,6 +3,36 @@
 
 * {
     font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+
+/* estiliza o txt em negrito atraves da tag <strong> */
+strong {
+    font-weight: bold !important;
+}
+
+/* estiliza o title */
+/* normalmente utilizando a tag <h1> */
+.title {
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+
+/* estiliza o sub-title */
+/* normalmente utilizando a tag <h2> */
+.sub-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 5%;
+}
+
+/* estiliza o txt */
+/* normalmente utilizando a tag <h3> */
+.txt {
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 /* estiliza a img no background do header */
