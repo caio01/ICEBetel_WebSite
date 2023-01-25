@@ -1,8 +1,4 @@
-.div-body {
-    width: 100%;
-    margin: 0 auto;
-}
-
+/* estiliza a div do map, deixando responsiva */
 .map-responsive{
     overflow:hidden;
     padding-bottom:56.25%;
@@ -11,6 +7,7 @@
     margin: 0 auto;
 }
 
+/* estiliza o map */
 .map-responsive iframe{
     height:100%;
     width:100%;
@@ -18,12 +15,14 @@
     padding-bottom: 10%;
 }
 
+/* estiliza o txt */
 .div-txt {
     padding-top: 5%;
     padding-left: 2%;
     width: 100%;
 }
 
+/* estiliza o txt 'venha nos visitar*/
 .venha {
     margin-bottom: 5%;
 }
