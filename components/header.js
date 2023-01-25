@@ -32,10 +32,8 @@ document.getElementById('header-nav').innerHTML =
                         <a class="dropdown-toggle nav-link dropdown-toggle" 
                            data-toggle="dropdown" aria-expanded="false" href="#">Sobre nós</a>
                         <div class="dropdown-menu" role="menu">
-                            <a class="dropdown-item" role="presentation" href="/pages/nossamissao/nossamissao.html">Nossa Missão</a>
-                            <a class="dropdown-item" role="presentation" href="/pages/nossavisao/nossavisao.html">Nossa Visão</a>
-                            <a class="dropdown-item" role="presentation" href="/pages/nossosvalores/nossosvalores.html">Nossos Valores</a>
-                            <a class="dropdown-item" role="presentation" href="/pages/nossaconfissaodefe/nossaconfissaodefe.html">Nossa Confissão de Fé</a>
+                            <a class="dropdown-item" role="presentation" href="/pages/historiadaigreja/historiadaigreja.html">História da Igreja</a>
+                            <a class="dropdown-item" role="presentation" href="/pages/noquecremos/noquecremos.html">No que cremos</a>
                         </div>
                     </li>
 
