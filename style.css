@@ -29,6 +29,17 @@ body::-webkit-scrollbar-corner {
     border-radius: 2px;
 }
 
+.caixa-texto {
+    margin-top: 2%;
+    width:100%;
+    text-align: center;
+}
+
+.embed-responsive-item {
+    border-radius: 10px;
+}
+
+
 /* estiliza o header */
 header {
     position: relative;
@@ -64,3 +75,7 @@ header {
     position: relative;
     z-index: 2;
 }
+
+
+
+  

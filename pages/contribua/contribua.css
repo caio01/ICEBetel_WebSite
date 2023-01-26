@@ -1,0 +1,9 @@
+/* estiliza o qr_code */
+.qr_code {
+    margin-left: 39.5%;
+}
+
+/* estiliza o txt abaixo do qr_code */
+.txt-qr_code {
+    text-align: center;
+}

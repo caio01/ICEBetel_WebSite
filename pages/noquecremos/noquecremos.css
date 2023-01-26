@@ -1,0 +1,5 @@
+/* Aplica margem em todos os sub-titles, menos no primeiro */
+/* tag '!important' sobrescreve a margem setada em 'pages.css' */
+.sub-title:nth-child(n+2) {
+    margin-top: 8% !important;
+}

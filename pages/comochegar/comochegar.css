@@ -1,35 +1,23 @@
-.div-body {
-    display: flex;
-    height: 30rem;
+/* estiliza a div do map, deixando responsiva */
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    margin: 0 auto;
 }
 
-.div-map {
-    width: 70%;
+/* estiliza o map */
+.map-responsive iframe{
+    height:100%;
+    width:100%;
+    position:absolute;
+    padding-bottom: 10%;
 }
 
-.map {
-    margin: 2.5% 5%;
-    width: 90%;
-    height: 90%;
-    border: 0;
-    border-radius: 1.5rem;
-}
-
+/* estiliza o txt */
 .div-txt {
-    width: 30%;
-    height: 100%;
-    text-align: center;
-}
-
-.txt1 {
-    margin-top: 15rem;
-    font-size: 1.5rem;
-}
-
-.txt2 {
-    font-size: 1rem;
-}
-
-.txt3 {
-    font-size: .8rem;
+    padding-top: 5%;
+    padding-left: 2%;
+    width: 100%;
 }

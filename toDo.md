@@ -6,12 +6,24 @@
 	- [x] fazer imagens das paginas no canva
 	- [x] desenvolver footer (bootstrap)
 	- [x] comentar codigo já desenvolvido
-	- [ ] desenv layout -> 'como chegar'
+	- [x] desenv layout -> 'como chegar'
+	- [x] desenv layout -> 'contribua'
+	- [x] desenv layout -> 'no que cremos'
+	- [x] desenv layout -> 'programacao'
+
 
 - Jonas:
 	- [x] pesquisar ideias para o desenvolvimento das páginas
-	- [ ] iniciar desenv do corpo da homepage
+	- [x] iniciar desenv do corpo da homepage
+	- [x] desenv layout -> 'no que cremos'
+	- [ ] procurar imagem para incluir no header da 'historia da igreja'
+	- [ ] procurar narrativa e fotos da 'historia da igreja'
+	- [ ] continuar dev do body da home page
 
+
+- Izabel:
+	- [ ] pesquisar ideias para o desenvolvimento das páginas
+	
 
 - Ideias para desenvolver:
 	- historia da igreja - pegar como base : https://ibc.org.br/igreja

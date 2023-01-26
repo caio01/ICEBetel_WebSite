@@ -7,19 +7,19 @@ document.getElementById('footer').innerHTML =
 
       <!-- icone Youtube -->
       <a class="btn text-white btn-floating m-1" style="background-color: #f44336;" 
-        href="https://www.youtube.com/@canalicebetel" role="button">
+        href="https://www.youtube.com/@canalicebetel" role="button" target="_blank">
         <i class="fab fa-youtube"></i>
       </a>
 
       <!-- icone Facebook -->
       <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;"
-        href="https://www.facebook.com/icebetel" role="button">
+        href="https://www.facebook.com/icebetel" role="button" target="_blank">
         <i class="fab fa-facebook-f"></i>
       </a>
 
       <!-- icone Instagram -->
       <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" 
-        href="https://www.instagram.com/ice_betel" role="button">
+        href="https://www.instagram.com/ice_betel" role="button" target="_blank">
         <i class="fab fa-instagram"></i>
       </a>
 
