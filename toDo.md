@@ -10,6 +10,7 @@
 	- [x] desenv layout -> 'contribua'
 	- [x] desenv layout -> 'no que cremos'
 	- [x] desenv layout -> 'programacao'
+	- [ ] integrar api do YouTube
 
 
 - Jonas:
