@@ -1,7 +1,7 @@
 // funcao assincrona que recupera o ultimo video publicado no canal
 async function getApiYoutube() {
     // chave da api
-    const apiKey = 'AIzaSyD19NhX4SXowIe2VvpnlzzJX16gnRI_4aw'
+    const apiKey = 'AIzaSyA1Y9rzUvbaK65uCmWuGW0e6mOVeJZub-4'
     // id do canal
     const channelID = 'UCocY6WNm4TSu4aUlWdyoGtw'
     // numero maximo de resultados que a api retornara
@@ -35,6 +35,7 @@ async function getApiYoutube() {
             document.querySelector("#youtubeVideo").appendChild(iframe)
 
         })
+        .catch(error => console.error('Error:', error))
 }
 
 // chama a funcao
