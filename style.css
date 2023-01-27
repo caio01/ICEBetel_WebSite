@@ -35,6 +35,10 @@ body::-webkit-scrollbar-corner {
     text-align: center;
 }
 
+.embed-responsive {
+    margin-bottom: 10%;
+}
+
 .embed-responsive-item {
     border-radius: 10px;
 }
@@ -78,4 +82,3 @@ header {
 
 
 
-  
