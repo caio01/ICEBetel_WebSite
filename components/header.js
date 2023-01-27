@@ -41,6 +41,10 @@ document.getElementById('header-nav').innerHTML =
                         <a class="nav-link" href="/pages/comochegar/comochegar.html">Como chegar</a>
                     </li>
 
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" href="/pages/playlists/playlists.html">Playlists</a>
+                    </li>
+
                 </ul>
 
                 <!-- form que garante que a opcao de login e sign up fiquem alinhados a direita -->
