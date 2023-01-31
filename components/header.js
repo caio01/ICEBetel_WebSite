@@ -48,10 +48,10 @@ document.getElementById('header-nav').innerHTML =
                 <!-- form que garante que a opcao de login e sign up fiquem alinhados a direita -->
                 <form class="mr-auto"></form>
                 
-                <!-- login e sign up - serao implementados posteriormente-->
+                <!-- login e sign up - serao implementados posteriormente
                 <span class="navbar-text"><a href="#" class="login">Log In</a></span>
                 <a class="btn btn-light action-button" role="button" href="#">Sign Up</a>
-                <!---->
+                -->
             </div>
         </div>
     </nav>
