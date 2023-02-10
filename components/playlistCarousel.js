@@ -1,5 +1,3 @@
-var htmlString = ''
-
 // funcao assincrona que recupera o ultimo video publicado no canal
 async function getApiYoutube() {
     // chave da api
@@ -12,7 +10,8 @@ async function getApiYoutube() {
     const url = 'https://www.googleapis.com/youtube/v3/playlists/?key=' + apiKey + 
                 '&channelId=' + channelID + '&part=snippet&maxResults=' + maxResults
 
-    htmlString = `<ol class="carousel-indicators">`
+    /*
+    var htmlString = `<ol class="carousel-indicators">`
     
     for(i = 0; i < maxResults; i++) {
         if (i == 0) {
@@ -24,10 +23,11 @@ async function getApiYoutube() {
 
     htmlString += `</ol>`
 
-    console.log(htmlString)
 
-    htmlString += '<div class="carousel-inner">'
-    
+    var htmlString += '<div class="carousel-inner">'
+    */
+
+    var htmlString = '<div class="carousel-inner">'
 
     // get utilizando o fetch API
     await fetch(url)
@@ -35,22 +35,30 @@ async function getApiYoutube() {
         .then(T => T.json())
         .then(response => response.items)
         .then(res => res.map( element => {
+
+
+                //varivel = condição ? valor_se_verd : valor_se_falso
                 urlImg = element.snippet.thumbnails.maxres === undefined ? element.snippet.thumbnails.standard.url : element.snippet.thumbnails.maxres.url
 
                 if(res.indexOf(element) == 0) {
                     htmlString +=
                     `
-                        <div class="carousel-item active">
+                    
+                    <div class="carousel-item active">
+                        <a href="${'https://www.youtube.com/watch?v=LngtEN5EEsY&list=' + element.id}" target="_blank">
                             <img class="d-block w-100" src="${urlImg}" alt="Slide ${res.indexOf(element)}">
-                        </div>
+                        </a>
+                    </div>
                     `
 
                 } else {
                     htmlString +=
                     `
-                        <div class="carousel-item">
+                    <div class="carousel-item">
+                        <a href="${'https://www.youtube.com/watch?v=LngtEN5EEsY&list=' + element.id}" target="_blank">
                             <img class="d-block w-100" src="${urlImg}" alt="Slide ${res.indexOf(element)}">
-                        </div>
+                        </a>
+                    </div>
                     `
                 }
 
