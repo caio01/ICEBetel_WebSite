@@ -12,7 +12,9 @@
 	- [x] desenv layout -> 'programacao'
 	- [x] integrar api do YouTube na homePage
 	- [x] dev carrosel da prog na homePage
-	- [ ] dev pag 'playlists'
+	- [x] dev pag 'playlists'
+	- [ ] procurar imagem para incluir no header da 'historia da igreja'
+	- [ ] procurar narrativa e fotos da 'historia da igreja'
 
 
 - Jonas:
@@ -21,7 +23,6 @@
 	- [x] desenv layout -> 'no que cremos'
 	- [ ] procurar imagem para incluir no header da 'historia da igreja'
 	- [ ] procurar narrativa e fotos da 'historia da igreja'
-	- [ ] continuar dev do body da home page
 
 
 - Izabel:
@@ -31,3 +32,7 @@
 - Ideias para desenvolver:
 	- historia da igreja - pegar como base : https://ibc.org.br/igreja
 	- plano de leitura biblica - mostrar semanalmente
+
+- Oq falta?
+	- Produzir vídeo de background da HomePage
+	- Desenvolvimento da Pág 'História da Igreja'
