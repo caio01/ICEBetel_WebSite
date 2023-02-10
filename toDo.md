@@ -10,7 +10,9 @@
 	- [x] desenv layout -> 'contribua'
 	- [x] desenv layout -> 'no que cremos'
 	- [x] desenv layout -> 'programacao'
-	- [ ] integrar api do YouTube
+	- [x] integrar api do YouTube na homePage
+	- [x] dev carrosel da prog na homePage
+	- [ ] dev pag 'playlists'
 
 
 - Jonas:
