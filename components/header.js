@@ -32,7 +32,9 @@ document.getElementById('header-nav').innerHTML =
                         <a class="dropdown-toggle nav-link dropdown-toggle" 
                            data-toggle="dropdown" aria-expanded="false" href="#">Sobre nós</a>
                         <div class="dropdown-menu" role="menu">
+                            <!--
                             <a class="dropdown-item" role="presentation" href="/pages/historiadaigreja/historiadaigreja.html">História da Igreja</a>
+                            -->
                             <a class="dropdown-item" role="presentation" href="/pages/noquecremos/noquecremos.html">No que cremos</a>
                         </div>
                     </li>
@@ -41,9 +43,11 @@ document.getElementById('header-nav').innerHTML =
                         <a class="nav-link" href="/pages/comochegar/comochegar.html">Como chegar</a>
                     </li>
 
+                    <!--
                     <li class="nav-item" role="presentation">
                         <a class="nav-link" href="/pages/playlists/playlists.html">Playlists</a>
                     </li>
+                    -->
 
                 </ul>
 
