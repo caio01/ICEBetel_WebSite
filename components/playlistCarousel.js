@@ -5,7 +5,7 @@ async function getApiYoutube() {
     // id do canal
     const channelID = 'UCocY6WNm4TSu4aUlWdyoGtw'
     // numero maximo de resultados que a api retornara
-    const maxResults = 3
+    const maxResults = 10
     // url base para a consulta
     const url = 'https://www.googleapis.com/youtube/v3/playlists/?key=' + apiKey + 
                 '&channelId=' + channelID + '&part=snippet&maxResults=' + maxResults
@@ -36,7 +36,6 @@ async function getApiYoutube() {
         .then(response => response.items)
         .then(res => res.map( element => {
 
-
                 //varivel = condição ? valor_se_verd : valor_se_falso
                 urlImg = element.snippet.thumbnails.maxres === undefined ? element.snippet.thumbnails.standard.url : element.snippet.thumbnails.maxres.url
 
@@ -45,6 +44,7 @@ async function getApiYoutube() {
                     `
                     
                     <div class="carousel-item active">
+                        <h6 class="tp">${element.snippet.localized.title}</h6>
                         <a href="${'https://www.youtube.com/watch?v=LngtEN5EEsY&list=' + element.id}" target="_blank">
                             <img class="d-block w-100" src="${urlImg}" alt="Slide ${res.indexOf(element)}">
                         </a>
@@ -55,6 +55,7 @@ async function getApiYoutube() {
                     htmlString +=
                     `
                     <div class="carousel-item">
+                        <h6 class="tp">${element.snippet.localized.title}</h6>
                         <a href="${'https://www.youtube.com/watch?v=LngtEN5EEsY&list=' + element.id}" target="_blank">
                             <img class="d-block w-100" src="${urlImg}" alt="Slide ${res.indexOf(element)}">
                         </a>
